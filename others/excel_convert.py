@@ -1,10 +1,7 @@
+import pdftables_api
 
-# Import Module  
-import tabula 
-  
-# Read PDF File 
-# this contain a list 
-df = tabula.read_pdf(r"C:\Users\arjun\Code\miniproj\Miniproject\ktu_calender.pdf", pages = 1)[0] 
-  
-# Convert into Excel File 
-df.to_excel('./ktu_calender.xlsx', index = False) 
+c = pdftables_api.Client('zbwb6upgfebx')
+c.xlsx(r'C:\Users\Anwin\Desktop\Miniproject\ktu_calender.pdf', 'output.xlsx') 
+#replace c.xlsx with c.csv to convert to CSV
+#replace c.xlsx with c.xml to convert to XML
+#replace c.xlsx with c.html to convert to HTML
