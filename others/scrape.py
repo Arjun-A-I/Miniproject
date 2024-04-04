@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url='https://www.railyatri.in/booking/trains-between-stations?src=sa_search&device_type_id=6&user_id=-1712167866&doj=04-04-2024&from_code=tvc&from_name=trivandrum+central&from_stn=TVC+%7C+Trivandrum+Central&to_code=pgt&to_name=palakkad&to_stn=PGT+%7C+Palakkad'
+# Here to get data about spesific trains at specific dates edit the url link , since its a string
 result=requests.get(url)
 content=result.text
 
