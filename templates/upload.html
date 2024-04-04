@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF</title>
+    <link rel="stylesheet" href="static/styles.css"> 
+</head>
+<body>
+    <div class="container background-animation"> 
+        <div class="verthae content"> 
+            <h1>Upload PDF</h1>
+            <form id="pdfForm" enctype="multipart/form-data">
+                <div class="input-container">
+                    <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+                    <label for="pdfFile">Choose a PDF file</label>
+                </div>
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background-animation"></div>
+        <div class="verthae">
+            <div class="content">
+                <h1>Sign In</h1>
+                <form action="/login" method="post">
+                    <div class="input-container">
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-container">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit">Sign In</button>
+                    <p style="color: antiquewhite;">Dont have an account?? <a href="/" style="color: rgb(228, 138, 20);">Sign up</a></p>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
