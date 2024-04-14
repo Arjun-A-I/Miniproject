@@ -1,0 +1,93 @@
+:root {
+  --image-0: url("https://s3-alpha-sig.figma.com/img/51b9/c914/667171ba44ccc3c1153fd6b789bbc551?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RoYr2dPh8IBo-A4177hP8tIq3nISie43Tgn8RtnjKqsniBUJKUZRBZUda4YkO8WWpsr57tHQpULD~kFbmVzdw3-iMhi3Y5OVvxXmPex1514sENLOJ6eMn9hOUoj1-AOflRC3ECUNy07MLSLV4lRJRlHZgDj5AX1HK1KtfEndp76ArVkY3Zo0uLQgkQ1y18zBJP0nlAlSXuUa41Q9xJXg99XYngxi3SBi3Xq-5E0ziHMcAJ3edIYvxL-HbAtQlHKBM~8wv6qTuea-X3tqOZwLAZzg6oEYComlV50ZdqAJRy6Ocll4PzpZh4HWfbV8sIDxNSGSHsk3XRswH2ig3i6ofA__");
+  --custom-width: min(1280px, 100vw);
+  --design-width: 1280;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.parent-div {
+  position: relative;
+  width: var(--custom-width);
+  height: calc(0.65 * var(--custom-width));
+  overflow: hidden;
+  background: #accdffff;
+}
+
+.sign-in-page-1-592345 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+.rectangle-13-1-742212 {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1;
+  z-index: 3;
+  transform: rotate(0deg);
+  background: #accdffff;
+}
+.centered-button {
+  width: 100%; /* Full width to center button properly */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-enlarge {
+  font-family: 'Jost', sans-serif;
+
+  width: 200px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  background: #FF6969;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.button-enlarge:hover {
+  transform: scale(1.1);
+}
+
+.do-you-miss-you-1-79325 {
+  position: absolute;
+  top: 10%; /* Adjusted for visibility */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #002C45B5;
+  font-size: 2rem; /* Increased size for better readability */
+}
+
+.logo-1-177742, .image-5-1-222720, .nodeBg-97223 {
+  /* Additional styling as needed */
+}
+
+.railguru-1-479192 {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  font-size: 1rem;
+  color: #002C45;
+}
